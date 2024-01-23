@@ -8,79 +8,53 @@
     <link href="../dist/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-gradient-to-b from-neutral-900 to-zinc-600">
-        <nav class="h-32 bg-gradient-to-b from-zinc-800 via-zinc-700 to-zinc-800">
-            <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-              <div class="relative flex h-16 items-center justify-between">
-                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                  <!-- Mobile menu button-->
-                  <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-                    <span class="absolute -inset-0.5"></span>
-                    <span class="sr-only">Open main menu</span>
-                    <!--
-                      Icon when menu is closed.
-          
-                      Menu open: "hidden", Menu closed: "block"
-                    -->
-                    <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    </svg>
-                    <!--
-                      Icon when menu is open.
-          
-                      Menu open: "block", Menu closed: "hidden"
-                    -->
-                    <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  </button>
-                </div>
-                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                  <div class="flex flex-shrink-0 items-center">
-                    <img class="h-8 w-auto" src="../assets/6130b92d19b055000483bbb3.png" alt="Your Company">
-                  </div>
-                  <div class="hidden sm:ml-6 sm:block">
-                    <div class="flex space-x-4">
-                      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                      <a href="../index.html" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium">Home</a>
-                      <a href="./Kobe.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Kobe</a>
-                      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
-                      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <!-- Mobile menu, show/hide based on menu state. -->
-            <div class="sm:hidden" id="mobile-menu">
-              <div class="space-y-1 px-2 pb-3 pt-2">
-                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
-              </div>
-            </div>
-          </nav>
-          <div class="grid gap-4" style="height: 950px; grid-template-columns: repeat(2, minmax(0, 1fr));">
-          <div class="">
-              
-          </div>
-          <div>
-            <h1 class="text-8xl text-end" style="text-align: end;">Who is Kobe?</h1>
-            <div class="bg-black" style="margin-top: 50px">
-                <p class=" text-white">American professional basketball player Kobe Bean Bryant (pronounced /ˈkoʊbi/ KOH-bee; August 23, 1978 – January 26, 2020) was born. He played shooting guard in the National Basketball Association (NBA) for the Los Angeles Lakers for his whole 20-year career. Bryant, who is widely considered as one of the best players in NBA history, was an 18-time All-Star, a 15-time member of the All-NBA team, a 12-time member of the All-Defensive team, the 2008 NBA MVP, and the MVP of the NBA Finals twice. He also won five NBA championships. Along with ranking fourth in the league's all-time regular season and postseason scoring, he also led the NBA in scoring twice. In 2020, he was inducted posthumously into the Naismith Memorial Basketball Hall of Fame and listed on the 2021, the NBA 75th Anniversary Team.  He was raised in Italy to some extent after being born in Philadelphia, the son of former NBA player Joe Bryant. Bryant entered the 1996 NBA draft after being named the best American high school basketball player while attending the Lower Merion suburb of Philadelphia. The Charlotte Hornets selected him with the 13th overall pick; he was later traded to the Lakers. He won the 1997 Slam Dunk Contest to establish his reputation as a high flyer as a rookie, and by the end of his second season, he had been named an All-Star. They had a falling out with Shaquille O'Neal, their teammate, but they still managed to lead the Lakers to three straight NBA titles from 2000 to 2002.</p>
-                </div>
-            
-        </div>
+<body class="bg-gradient-to-b from-zinc-900 to-zinc-800 bg-cover">
+        
+
+  <nav class="bg-gradient-to-b from-zinc-900 via-zinc-700 to-zinc-900">
+    <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="../assets/6130b92d19b055000483bbb3.png" class="h-24" alt="Kobe Logo" />
+      </a>
+      <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
+        <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+          <li>
+            <a href="#" class="block py-2 px-3 text-white" aria-current="page">Home</a>
+          <li>
+            <a href="../pages/Kobe.html" class="block py-2 px-3 text-white">Kobe?</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-white">Accomplishments</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-white">Influence</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
+  
+  <div class="grid grid-cols-2">
+    <div>
+      <img class="my-8 ml-24 border-2  h-[900px] object-cover" src="../assets/kobe-bryant-obit.png" alt="">
+    </div>
+    <div>
 
-
-
-
-
-    <script src="../scripts/app.js"></script>
-</body>
-
+    </div>
+  </div>
+      
+  
+  
+  
+  
+  
+      <script src="../scripts/app.js"></script>
+      <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
 </html>
