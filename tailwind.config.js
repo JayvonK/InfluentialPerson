@@ -6,7 +6,11 @@ module.exports = {
 		//root index files add this
     "./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Clarendon: ['Clarendon']
+      }
+    },
   },
   plugins: [],
 }

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Clarendon;
+    src: url(../assets/Clarendon\ LT\ Regular.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
