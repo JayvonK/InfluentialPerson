@@ -8,68 +8,45 @@
     <link href="/dist/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-black">
-        <nav class="h-32 bg-gradient-to-b from-zinc-800 via-zinc-700 to-zinc-800">
-            <div class=" x-2 sm:px-6 lg:px-36">
-              <div class="relative flex h-16 items-center justify-between">
-                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                  <!-- Mobile menu button-->
-                  <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-                    <span class="absolute -inset-0.5"></span>
-                    <span class="sr-only">Open main menu</span>
-                    <!--
-                      Icon when menu is closed.
-          
-                      Menu open: "hidden", Menu closed: "block"
-                    -->
-                    <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    </svg>
-                    <!--
-                      Icon when menu is open.
-          
-                      Menu open: "block", Menu closed: "hidden"
-                    -->
-                    <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  </button>
-                </div>
-                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                  <div class="flex flex-shrink-0 items-center">
-                    <img class="h-8 w-auto" src="./assets/6130b92d19b055000483bbb3.png" alt="Your Company">
-                  </div>
-                  <div class="hidden sm:ml-6 sm:block">
-                    <div class="flex space-x-4">
-                      <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                      <a href="#" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
-                      <a href="./pages/Kobe.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Kobe</a>
-                      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
-                      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-            <!-- Mobile menu, show/hide based on menu state. -->
-            <div class="sm:hidden" id="mobile-menu">
-              <div class="space-y-1 px-2 pb-3 pt-2">
-                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="#" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
-                <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
-              </div>
-            </div>
-          </nav>
-    <div class="grid grid-rows-3"
-        style="background-image: url(./assets/20200126_142413.jpg); background-repeat: no-repeat; background-size: cover; height: 950px;">
-        <div></div>
+<body class="bg-black" >
+        
+
+<nav class="bg-gradient-to-b from-zinc-900 via-zinc-700 to-zinc-900">
+  <div class="flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./assets/6130b92d19b055000483bbb3.png" class="h-24" alt="Kobe Logo" />
+    </a>
+    <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
+      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+        <li>
+          <a href="#" class="block py-2 px-3 text-white" aria-current="page">Home</a>
+        <li>
+          <a href="#" class="block py-2 px-3 text-white">Services</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-white">Pricing</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-white">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class=" bg-[url('/assets/20200126_142413.jpg')] bg-cover">
         <div class="pl-36">
-            <h1 class="pb-16 text-white text-8xl font-Clarendon">KOBE <br> BRYANT</h1>
+          <h1 class="pb-16 pt-60 text-white text-8xl font-Clarendon">KOBE <br> BRYANT</h1>
             <p class="pb-16 text-white text-3xl font-Georgia">"Im chasing perfection"</p>
-            <p class="text-white text-3xl underline font-Georgia">Learn More</p>
+            <p class="pb-80 text-white text-3xl underline font-Georgia">Learn More</p></div>
+        <div >
+            
         </div>
         <div></div>
     </div>
@@ -92,6 +69,7 @@
 
 
     <script src="./scripts/app.js"></script>
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 
 </html>
