@@ -3,6 +3,12 @@
     src: url(../assets/Clarendon\ LT\ Regular.ttf);
 }
 
+@font-face {
+    font-family: Georgia;
+    src: url(../assets/georgia.ttf);
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Clarendon: ['Clarendon']
+        Clarendon: ['Clarendon'],
+        Georgia: ['Georgia']
       }
     },
   },

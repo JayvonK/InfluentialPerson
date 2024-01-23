@@ -4,6 +4,12 @@
   src: url(../assets/Clarendon\ LT\ Regular.ttf);
 }
 
+@font-face {
+  font-family: Georgia;
+
+  src: url(../assets/georgia.ttf);
+}
+
 /*
 ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
@@ -750,6 +756,10 @@ video {
 
 .font-Clarendon {
   font-family: Clarendon;
+}
+
+.font-Georgia {
+  font-family: Georgia;
 }
 
 .text-3xl {
