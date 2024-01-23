@@ -2,74 +2,87 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="/dist/output.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="/dist/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-black" >
-        
+<body class="bg-black">
 
-<nav class="bg-gradient-to-b from-zinc-900 via-zinc-700 to-zinc-900">
-  <div class="flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="./assets/6130b92d19b055000483bbb3.png" class="h-24" alt="Kobe Logo" />
-    </a>
-    <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-        </svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
-      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
-        <li>
-          <a href="./index.html" class="block py-2 px-3 text-white" aria-current="page">Home</a>
-        <li>
-          <a href="./pages/Kobe.html" class="block py-2 px-3 text-white">Kobe?</a>
-        </li>
-        <li>
-          <a href="./pages/Accomplishments.html" class="block py-2 px-3 text-white">Accomplishments</a>
-        </li>
-        <li>
-          <a href="./pages/Influence.html" class="block py-2 px-3 text-white">Influence</a>
-        </li>
-      </ul>
+
+
+
+  <nav class="bg-gradient-to-b from-zinc-800 via-zinc-700 to-zinc-800">
+    <div class="lgpx-36 flex flex-wrap items-center justify-between mx-auto p-4 px-10">
+      <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="./assets/6130b92d19b055000483bbb3.png" class="h-24" alt="Kobe Logo">
+      </a>
+      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button data-collapse-toggle="navbar-sticky" type="button"
+          class="inline-flex items-center p-2 w-12 h-12 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-30 h-30" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15" />
+          </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-[70vw] md:order-1" id="navbar-sticky">
+        <div
+          class="flex flex-col justify-around p-4 md:p-0 mt-4 font-medium border rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 w-full">
+
+          <a href="./index.html" class="block py-2 px-3 text-white text-5xl font-Clarendon text-center"
+            aria-current="page">Home</a>
+
+
+          <a href="./pages/Kobe.html" class="block py-2 px-3 text-white text-5xl font-Clarendon text-center">Kobe?</a>
+
+
+          <a href="./pages/Accomplishments.html" class="block py-2 px-3 text-white text-5xl font-Clarendon text-center">Accomplishments</a>
+
+
+          <a href="./pages/Influence.html" class="block py-2 px-3 text-white text-5xl font-Clarendon text-center">Influence</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class=" bg-[url('/assets/20200126_142413.jpg')] bg-cover bg-bottom">
+    <div class="lg:pl-36 pl-10">
+      <h1 class="lg:text-8xl pb-16 pt-60 text-white  font-Clarendon text-7xl ">KOBE <br> BRYANT</h1>
+      <p class="lg:text-3xl pb-16 text-white font-Georgia text-[32px]">"Im chasing perfection"</p>
+      <p class="lg:text-3xl pb-80 text-white  underline font-Georgia text-[36px]">Learn More</p>
+    </div>
+    <div>
+
+    </div>
+    <div></div>
+  </div>
+  <div class="lg:px-36 grid lg:grid-cols-3 py-10 sm:px-2 grid-cols-2 px-7">
+    <div>
+      <h1 class="lg:w-[480px] lg:text-5xl font-Clarendon text-white w-[190px] text-xl">“Hard work
+        outweighs talent -
+        every time”</h1>
+    </div>
+    <div class="lg:block lg:pl-16 hidden">
+      <h1 class="text-white text-5xl font-Clarendon">BLACK MAMBA</h1>
+      <p class="text-white text-2xl font-Clarendon py-4">5 TIME NBA CHAMPION</p>
+      <P class="text-2xl text-white font-Clarendon">81 POINTS</P>
+    </div>
+    <div class="lg:pl-16 sm:pl-0">
+      <h1 class="lg:text-5xl lg:text-left text-white font-Clarendon text-xl text-right">KOBE BRYANT</h1>
+      <p class=" lg:py-4 lg:text-2xl lg:text-left font-Clarendon text-white text-sm text-right py-[6px]">R.I.P Kobe Bryant</p>
+      <P class="lg:text-2xl lg:text-left font-Clarendon text-white text-right">1978 - 2020</P>
     </div>
   </div>
-</nav>
-
-    <div class=" bg-[url('/assets/20200126_142413.jpg')] bg-cover">
-        <div class="pl-36">
-          <h1 class="pb-16 pt-60 text-white text-8xl font-Clarendon">KOBE <br> BRYANT</h1>
-            <p class="pb-16 text-white text-3xl font-Georgia">"Im chasing perfection"</p>
-            <p class="pb-80 text-white text-3xl underline font-Georgia">Learn More</p></div>
-        <div >
-            
-        </div>
-        <div></div>
-    </div>
-    <div class="px-36 grid grid-cols-3">
-        <div>
-            <h1 class="text-white text-5xl font-Clarendon">“Hard work
-                outweighs talent -
-                every time”</h1>
-        </div>
-        <div class="lg:block sm:hidden">
-            <h1 class="text-white text-5xl text-center font-Clarendon">BLACK MAMBA</h1>
-        </div>
-        <div>
-            <h1 class="text-white text-5xl text-center font-Clarendon">KOBE BRYANT</h1>
-        </div>
-    </div>
 
 
-
-
-
-    <script src="./scripts/app.js"></script>
-    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+  <script src="./scripts/app.js"></script>
+  <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 
 </html>
