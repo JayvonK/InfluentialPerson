@@ -1250,6 +1250,14 @@ input:checked + .toggle-bg {
   height: 10rem;
 }
 
+.h-\[758px\] {
+  height: 758px;
+}
+
+.h-\[760px\] {
+  height: 760px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1668,6 +1676,31 @@ input:checked + .toggle-bg {
   padding-right: 3rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1758,6 +1791,42 @@ input:checked + .toggle-bg {
 
 .pr-16 {
   padding-right: 4rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .text-left {
@@ -1852,6 +1921,14 @@ input:checked + .toggle-bg {
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[23px\] {
+  font-size: 23px;
 }
 
 .font-bold {
@@ -2258,6 +2335,15 @@ input:checked + .toggle-bg {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:border-2 {
+    border-width: 2px;
+  }
+
+  .lg\:bg-black {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  }
+
   .lg\:bg-\[url\(\'\/assets\/20200126_142413\.jpg\'\)\] {
     background-image: url('/assets/20200126_142413.jpg');
   }
@@ -2282,6 +2368,16 @@ input:checked + .toggle-bg {
     padding-bottom: 2rem;
   }
 
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .lg\:pl-16 {
     padding-left: 4rem;
   }
@@ -2298,12 +2394,32 @@ input:checked + .toggle-bg {
     padding-left: 5rem;
   }
 
+  .lg\:pr-11 {
+    padding-right: 2.75rem;
+  }
+
+  .lg\:pr-36 {
+    padding-right: 9rem;
+  }
+
+  .lg\:pl-11 {
+    padding-left: 2.75rem;
+  }
+
+  .lg\:pt-24 {
+    padding-top: 6rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
 
   .lg\:text-center {
     text-align: center;
+  }
+
+  .lg\:text-right {
+    text-align: right;
   }
 
   .lg\:text-2xl {
@@ -2323,6 +2439,11 @@ input:checked + .toggle-bg {
 
   .lg\:text-8xl {
     font-size: 6rem;
+    line-height: 1;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 }
